@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="801">
+	<kit name="h3d_channel_name_replace" restart="YES">
+		<source target="h3d_channel_name_replace/index.CFG">index.CFG</source>
+		<source target="h3d_channel_name_replace/scripts/channel_name_replace.py">scripts/channel_name_replace.py</source>
+	</kit>
+	<message button="Help">h3d_channel_name_replace Kit installation complete.</message>
+</package>
