@@ -8,15 +8,10 @@
 # search and replace selected user channel names
 
 
-import modo
-import modo.constants as c
 import lx
-import sys
 
-sys.path.append('{}\\scripts'.format(lx.eval('query platformservice alias ? {kit_h3d_utilites:}')))
-import h3d_utils as h3du
-from h3d_debug import H3dDebug
-from h3d_exceptions import H3dExitException
+import h3d_utilites.scripts.h3d_utils as h3du
+from h3d_utilites.scripts.h3d_exceptions import H3dExitException
 
 
 USERVAL_CNR_SEARCH_NAME = 'h3d_cnr_search'
