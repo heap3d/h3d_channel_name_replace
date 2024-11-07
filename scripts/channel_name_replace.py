@@ -29,6 +29,9 @@ def main():
 
     chan_n = selection_service.Count(chan_sel_type)
 
+    if not chan_n:
+        return
+
     for x in range(chan_n):
         packet_pointer = selection_service.ByIndex(chan_sel_type, x)
         if not packet_pointer:
